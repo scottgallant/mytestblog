@@ -1,0 +1,13 @@
+# OSX ------- #
+
+*.DS_Store
+
+
+# NPM ------- #
+
+src/node_modules
+
+
+# Bower ----- #
+
+src/bower_components
