@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- SEO meta tags -->
+        <title>{{ .Site.Title }}{{ with .Title }} | {{ . }}{{ end }}</title>
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ end }}">
+        <link rel="canonical" href="{{ .Permalink }}">
+
+        <!-- CSS stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Favicons, Touch-icons & more -->
+        <!--
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+        -->
+    </head>
+    <body>
+        {{ `<!--[if IE]>
+            <h1>You are using an outdated browser</h1>
+            <p>Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->` | safeHTML }}
