@@ -1,0 +1,5 @@
+---
+baseURL: "https://mytestblog.aerobatic.io"
+languageCode: "en-us"
+title: "My Hugo Test Blog"
+...
