@@ -1,4 +1,4 @@
-# Testing Hugo and Aerobatic
+# Testing Hugo and Netlify
 
 ---
 
