@@ -9,7 +9,7 @@ var concat = require('gulp-concat');
 gulp.task('styles', function() {
     gulp.src(['sass/main.scss'])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('../static/css/'));
+        .pipe(gulp.dest('static/css/'));
 });
 
 // Styles compiling
@@ -21,11 +21,11 @@ gulp.task('scripts', function() {
     	'js/*.js'
     	])
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('../static/js/'));
+        .pipe(gulp.dest('static/js/'));
 });
 
 // Default task
 gulp.task('default', function() {
- 	gulp.watch('sass/*.scss',['styles']);
- 	gulp.watch('js/*.js',['scripts']);
+ 	gulp.watch('src/sass/*.scss',['styles']);
+ 	gulp.watch('src/js/*.js',['scripts']);
 });

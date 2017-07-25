@@ -1,13 +1,8 @@
 # OSX ------- #
-
 *.DS_Store
 
-
 # NPM ------- #
-
-src/node_modules
-
+node_modules
 
 # Bower ----- #
-
-src/bower_components
+bower_components
