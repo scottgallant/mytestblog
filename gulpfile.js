@@ -12,7 +12,7 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('static/css/'));
 });
 
-// Styles compiling
+// Scripts compiling
 gulp.task('scripts', function() {
     gulp.src([
     	'bower_components/jquery/dist/jquery.js',
@@ -23,6 +23,9 @@ gulp.task('scripts', function() {
         .pipe(concat('all.js'))
         .pipe(gulp.dest('static/js/'));
 });
+
+// Build task
+gulp.task('build', ['styles', 'scripts']);
 
 // Default task
 gulp.task('default', ['styles', 'scripts'], function() {

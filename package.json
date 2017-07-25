@@ -1,6 +1,10 @@
 {
   "name": "mytestblogpackage",
   "version": "1.0.0",
+  "scripts":
+  {
+    "build": "gulp build && hugo"
+  }
   "devDependencies":
   {
     "gulp": "^3.9.1",
