@@ -1,5 +1,5 @@
 ---
-baseURL: "https://mytestblog.netlify.com"
+baseURL: "/"
 languageCode: "en-us"
 title: "My Hugo Test Blog"
 
