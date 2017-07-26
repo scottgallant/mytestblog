@@ -7,25 +7,28 @@ var concat = require('gulp-concat');
 
 // Styles compiling
 gulp.task('styles', function() {
-    gulp.src(['sass/main.scss'])
+    gulp.src(['src/sass/main.scss'])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('../static/css/'));
+        .pipe(gulp.dest('static/css/'));
 });
 
-// Styles compiling
+// Scripts compiling
 gulp.task('scripts', function() {
     gulp.src([
     	'bower_components/jquery/dist/jquery.js',
     	'bower_components/tether/dist/js/tether.js',
     	'bower_components/bootstrap/dist/js/bootstrap.js',
-    	'js/*.js'
+    	'src/js/*.js'
     	])
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('../static/js/'));
+        .pipe(gulp.dest('static/js/'));
 });
 
+// Build task
+gulp.task('build', ['styles', 'scripts']);
+
 // Default task
-gulp.task('default', function() {
- 	gulp.watch('sass/*.scss',['styles']);
- 	gulp.watch('js/*.js',['scripts']);
+gulp.task('default', ['styles', 'scripts'], function() {
+ 	gulp.watch('src/sass/*.scss',['styles']);
+ 	gulp.watch('src/js/*.js',['scripts']);
 });
