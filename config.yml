@@ -2,4 +2,6 @@
 baseURL: "https://mytestblog.netlify.com"
 languageCode: "en-us"
 title: "My Hugo Test Blog"
-...
+
+metaDataFormat: "yaml"
+---
