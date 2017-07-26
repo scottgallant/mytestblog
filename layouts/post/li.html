@@ -1,0 +1,9 @@
+<li class="mb-4">
+    <h4 class="mb-0">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <small class="text-muted">{{ .Date.Format "Mon 02 Jan 2006" }}</small>
+    </h4>
+    <p>
+        {{ range .Params.tags }} <span class="badge badge-default">{{ . }}</span>{{ end }}
+    </p>
+</li>

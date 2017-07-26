@@ -1,6 +1,15 @@
-{{ partial "head" . }}
+{{ define "main" }}
+    <h1 class="display-1">{{ .Title }}</h1>
+    <hr>
+    {{ .Content }}
+    <hr>
 
-        <!-- Add your site or application content here -->
-        <h1>Hello world! This is HTML5 Boilerplate.</h1>
+    <h4 class="display-4">Newest Posts</h4>
 
-{{ partial "foot" . }}
+    <ul class="my-4">
+        {{ range first 10 (where .Data.Pages "Section" "post").ByDate.Reverse }}
+            {{ .Render "li" }}
+        {{ end }}
+    </ul>
+
+{{ end }}
