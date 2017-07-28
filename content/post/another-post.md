@@ -12,6 +12,6 @@ tags:
 ---
 
 
-[MAJ] Edited with **Forestry** !
+[MAJ] Edited with **Forestry** !!
 
 Another post with some **taxonomies**. how cool is that? ;-)
