@@ -1,15 +1,17 @@
 ---
 title: Third Post created with Forestry
 description: Some description for SEO
-date: '2017-07-28T17:56:24+00:00'
+date: 07/28/2017 7:54 PM
 category:
-- news
 - tutorial
 tags:
-- Development
-- Go
 - fast
 - Blogging
+- Forestry
+type: ''
 draft: true
 
 ---
+
+
+This post was entirely created in **Forestry** admin panel. :-)
