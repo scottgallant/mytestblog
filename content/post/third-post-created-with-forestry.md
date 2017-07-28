@@ -9,7 +9,6 @@ tags:
 - Blogging
 - Forestry
 type: ''
-draft: true
 
 ---
 
