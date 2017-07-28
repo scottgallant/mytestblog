@@ -1,7 +1,7 @@
 ---
 category:
 - Tutorial
-date: 07/20/2017 5:00 PM
+date: '2017-07-20T00:00:00+02:00'
 description: Some description for SEO
 tags:
 - Development
