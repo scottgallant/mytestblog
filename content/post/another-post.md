@@ -1,12 +1,12 @@
 ---
-title: Another Post
-description: Some description for SEO
-date: '2017-07-28T00:00:00+02:00'
 category:
 - Tutorial
+date: 07/20/2017 5:00 PM
+description: Some description for SEO
 tags:
 - Development
 - Go
+title: Another Post
 
 ---
 
