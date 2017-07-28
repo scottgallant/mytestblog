@@ -1,15 +1,11 @@
 ---
-category:
-- News
-- Tutorial
-date:
-  date: '2017-07-28T14:10:31.250Z'
-description: Some description for SEO
-tags:
-- Development
-- Go
-title: Another Post
+title: "Another Post"
+description: "Some description for SEO"
+date: 2017-07-26T16:15:14+02:00
+draft: false
 
+category: ["News", "Tutorial"]
+tags: ["Development", "Go"]
 ---
 
 
