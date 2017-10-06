@@ -1,0 +1,50 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: Title of the post
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: Some description for SEO
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 2017-07-27 00:00:00 +0200
+  config:
+    date_format: DD/MM/YYYY
+    time_format: HH:mm
+- name: category
+  label: Category
+  type: list
+  hidden: false
+  default:
+  - news
+  - tutorial
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - Development
+  - Go
+  - fast
+  - Blogging
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- type: file
+  name: image
+  label: image
