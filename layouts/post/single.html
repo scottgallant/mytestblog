@@ -1,15 +1,19 @@
 {{ define "main" }}
     <h1 class="display-1">{{ .Title }}</h1>
     <hr>
-    {{ with .Params.image }}
-        {{ $image_name := .Params.image }}
-        {{ with .Site.GetPage "section" "uploads" }}
-            {{ $original := .Resources.GetMatch $image_name }}
-            {{ $resize := $original.Fill "200x200" }}
-            <img src="{{$resize.RelPermalink}}" class="rounded d-block img-fluid mx-auto mr-md-3 mb-3">
+    <div class="clearfix">
+        {{ if .Params.image }}
+            {{ $image_name := .Params.image }}
+            {{ with .Site.GetPage "section" "uploads" }}
+                {{ $original := .Resources.GetMatch $image_name }}
+                {{ $resize := $original.Fill "200x200" }}
+                <img src="{{$resize.RelPermalink}}" class="rounded d-block img-fluid float-left mr-2">
+            {{ end }}
         {{ end }}
-    {{ end }}
-    {{ .Content }}
+
+        {{ .Content }}
+    </div>
+
     <hr>
 
     <ul class="list-group float-left">
