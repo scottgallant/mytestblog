@@ -15,9 +15,9 @@ gulp.task('styles', function() {
 // Scripts compiling
 gulp.task('scripts', function() {
     gulp.src([
-    	'bower_components/jquery/dist/jquery.js',
-    	'bower_components/tether/dist/js/tether.js',
-    	'bower_components/bootstrap/dist/js/bootstrap.js',
+        'node_modules/jquery/dist/jquery.js',
+    	'node_modules/popper.js/dist/umd/popper.js',
+    	'node_modules/bootstrap/dist/js/bootstrap.js',
     	'src/js/*.js'
     	])
         .pipe(concat('all.js'))
