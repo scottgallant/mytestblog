@@ -1,6 +1,11 @@
 {
-  "name": "mytestblogpackage",
-  "version": "1.0.0",
+    "name": "mytestblog",
+    "version": "1.0.0",
+    "description": "testing Hugo",
+    "main": "index.html",
+    "repository": "https://Lionel-D@github.com/Lionel-D/mytestblog.git",
+    "author": "Lionel-D <hello@lionel-d.com>",
+    "license": "UNLICENSED",
   "scripts": {
     "build": "gulp build && hugo"
   },
@@ -8,6 +13,8 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
-    "bootstrap": "4.0.0"
+    "bootstrap": "4.0.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
   }
 }
