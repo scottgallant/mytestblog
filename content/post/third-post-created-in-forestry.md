@@ -13,4 +13,4 @@ type: ''
 ---
 This post was created entirely in **Forestry** admin panel ! :-)
 
-![](/uploads/2017/10/06/test.jpg)
+Now with new image.
