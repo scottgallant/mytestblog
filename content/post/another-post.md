@@ -7,7 +7,7 @@ tags:
 - Development
 - Go
 title: Another Post
-image: "/compass.jpg"
+image: ''
 
 ---
 [MAJ] Edited with **Forestry** and it works !!
