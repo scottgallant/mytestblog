@@ -3,7 +3,7 @@ category:
 - tutorial
 date: 2017-07-28 18:07:42 +0200
 description: Some description for SEO
-image: "/car.jpg"
+image: "/uploads/car.jpg"
 tags:
 - Blogging
 - Forestry
