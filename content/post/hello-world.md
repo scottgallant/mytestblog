@@ -12,4 +12,6 @@ image: "/car-1.jpg"
 ---
 This is my first post in **Hugo**, deployed by **netlify** !!
 
+![](/uploads/car-1.jpg)
+
 ![](/uploads/compass.jpg)
