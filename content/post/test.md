@@ -11,7 +11,7 @@ tags:
 - fast
 - Blogging
 type: ''
-image: ''
+image: "/uploads/20398172_311228722620052_7501835693056851968_n-1.jpg"
 
 ---
 ![](/uploads/cat.jpg)
