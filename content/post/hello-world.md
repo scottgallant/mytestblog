@@ -7,7 +7,9 @@ tags:
 - Blogging
 - Go
 title: Hello World
-image: "/compass.jpg"
+image: ''
 
 ---
 This is my first post in **Hugo**, deployed by **netlify** !!
+
+![](/uploads/compass.jpg)
