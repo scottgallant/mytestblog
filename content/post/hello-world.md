@@ -7,7 +7,7 @@ tags:
 - Blogging
 - Go
 title: Hello World
-image: ''
+image: "/car-1.jpg"
 
 ---
 This is my first post in **Hugo**, deployed by **netlify** !!
