@@ -6,7 +6,3 @@ node_modules
 
 # Bower ------------ #
 bower_components
-
-# Compiled files --- #
-static/css
-static/js
