@@ -1,4 +1,4 @@
-# Testing Hugo and Netlify
+# Testing Hugo, Forestry and Netlify
 
 ---
 
