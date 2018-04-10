@@ -10,6 +10,8 @@ tags:
 - Go
 - fast
 - Blogging
-draft: true
+type: ''
+image: ''
 
 ---
+![](/uploads/cat.jpg)
