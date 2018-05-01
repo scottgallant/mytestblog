@@ -10,6 +10,6 @@ title: Another Post
 image: ''
 
 ---
-[MAJ] Edited with **Forestry** and it works !!
+\[MAJ\] Edited with **Forestry** and it works !!
 
-Another post with some **taxonomies**. how cool is that? ;-)
+Another post with some **taxonomies**. how cool is that? ;-) 
